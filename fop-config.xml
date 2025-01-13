@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fop version="1.0">
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font embed="true" subset="true" embed-url="file:///C:/fonts/DejaVuSans.ttf">
+          <font-triplet name="DejaVu Sans" style="normal" weight="normal"/>
+        </font>
+        <font embed="true" subset="true" embed-url="file:///C:/fonts/DejaVuSans-Bold.ttf">
+          <font-triplet name="DejaVu Sans" style="normal" weight="bold"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>

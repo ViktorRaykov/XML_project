@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (river+, region+)>
+
+
+<!ELEMENT region (name, description, sightseeing?, dam+)>
+<!ATTLIST region 
+    id ID #REQUIRED
+>
+
+
+<!ELEMENT dam (name, location, capacity?, usage?, coordinates?, image, characteristics, note?)>
+<!ATTLIST dam
+    id ID #REQUIRED
+    riverRef IDREF #IMPLIED
+>
+
+<!ELEMENT river (name, length?)>
+<!ATTLIST river
+    id ID #REQUIRED
+>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT characteristics (#PCDATA)>
+<!ELEMENT usage (#PCDATA)>         
+<!ELEMENT coordinates (#PCDATA)>   
+<!ELEMENT note (#PCDATA)>           
+<!ELEMENT sightseeing (#PCDATA)>    
+
+
+<!ELEMENT image (#PCDATA)>
+
+<!ENTITY dam-img1 "iskar.jpg">
+<!ENTITY dam-img2 "kardjali.jpg">
+<!ENTITY dam-img3 "topolnica.jpg">
+<!ENTITY dam-img4 "dospat.jpg">
+<!ENTITY dam-img5 "belmeken.jpg">
+<!ENTITY dam-img6 "tsonevo.jpg">
+<!ENTITY dam-img7 "jrebchevo.jpg">
+<!ENTITY dam-img8 "stud-kladenec.jpg">
+<!ENTITY dam-img9 "batak.jpg">
+<!ENTITY dam-img10 "ovcharica.jpg">
