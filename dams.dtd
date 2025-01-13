@@ -33,13 +33,13 @@
 
 <!ELEMENT image (#PCDATA)>
 
-<!ENTITY dam-img1 "iskar.jpg">
-<!ENTITY dam-img2 "kardjali.jpg">
-<!ENTITY dam-img3 "topolnica.jpg">
-<!ENTITY dam-img4 "dospat.jpg">
-<!ENTITY dam-img5 "belmeken.jpg">
-<!ENTITY dam-img6 "tsonevo.jpg">
-<!ENTITY dam-img7 "jrebchevo.jpg">
-<!ENTITY dam-img8 "stud-kladenec.jpg">
-<!ENTITY dam-img9 "batak.jpg">
-<!ENTITY dam-img10 "ovcharica.jpg">
+<!ENTITY dam-img1 "images/iskar.jpg">
+<!ENTITY dam-img2 "images/kardjali.jpg">
+<!ENTITY dam-img3 "images/topolnica.jpg">
+<!ENTITY dam-img4 "images/dospat.jpg">
+<!ENTITY dam-img5 "images/belmeken.jpg">
+<!ENTITY dam-img6 "images/tsonevo.jpg">
+<!ENTITY dam-img7 "images/jrebchevo.jpg">
+<!ENTITY dam-img8 "images/stud-kladenec.jpg">
+<!ENTITY dam-img9 "images/batak.jpg">
+<!ENTITY dam-img10 "images/ovcharica.jpg">
