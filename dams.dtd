@@ -7,10 +7,14 @@
 >
 
 
-<!ELEMENT dam (name, location, capacity?, usage?, coordinates?, image, characteristics, note?)>
+<!ELEMENT dam (name, location, capacity?, usage?, coordinates?, photo?, characteristics, note?)>
 <!ATTLIST dam
     id ID #REQUIRED
     riverRef IDREF #IMPLIED
+>
+<!ELEMENT photo EMPTY>
+<!ATTLIST photo
+    src CDATA #REQUIRED
 >
 
 <!ELEMENT river (name, length?)>
@@ -28,5 +32,6 @@
 <!ELEMENT coordinates (#PCDATA)>   
 <!ELEMENT note (#PCDATA)>           
 <!ELEMENT sightseeing (#PCDATA)>    
-
 <!ELEMENT image (#PCDATA)>
+
+<!NOTATION JPG PUBLIC "image/jpeg">

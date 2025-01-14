@@ -259,7 +259,7 @@
                                                        overflow="hidden">
                                             <fo:block>
                                                 <fo:external-graphic
-                                                    src="{image}"
+                                                    src="{unparsed-entity-uri(photo/src/@url)}"
                                                     scaling="uniform"
                                                     content-width="4.8cm"
                                                     border="1pt solid #999"/>
