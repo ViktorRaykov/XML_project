@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalog SYSTEM "dams.dtd">
+<!DOCTYPE catalog SYSTEM "dams.dtd" [
+    <!ENTITY dam-img1 "images/iskar.jpg">
+  <!ENTITY dam-img2 "images/kardjali.jpg">
+  <!ENTITY dam-img3 "images/topolnica.jpg">
+  <!ENTITY dam-img4 "images/dospat.jpg">
+  <!ENTITY dam-img5 "images/belmeken.jpg">
+  <!ENTITY dam-img6 "images/tsonevo.jpg">
+  <!ENTITY dam-img7 "images/jrebchevo.jpg">
+  <!ENTITY dam-img8 "images/stud-kladenec.jpg">
+  <!ENTITY dam-img9 "images/batak.jpg">
+  <!ENTITY dam-img10 "images/ovcharica.jpg">
+]
+>
+
 <catalog>
 
     <river id="r_iskar">
